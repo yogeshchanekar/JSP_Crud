@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+     
+    background-color: skyblue;
+    background-image: url("smilingemp.jpg");
+}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+</style>
+
+
+
+</head>
+
+<center>
+<body><br>
+<h3><a href="viewusers.jsp">View All Records</a><br/><h3>
+
+<h1>Add New User</h1>
+
+<form action="adduser.jsp" method="post">
+
+<table>
+<tr><td><br>Name:</td><td><br><input type="text" name="name"/></td></tr>
+<tr><td><br>Password:</td><td><br><input type="password" name="password"/></td></tr>
+<tr><td><br>Email:</td><td><br><input type="email" name="email"/></td></tr>
+<tr><td><br>Sex:</td><td><br><input type="radio" name="sex" value="male"/>Male <input type="radio" name="sex" value="female"/>Female </td></tr>
+<tr><td><br>Country:</td><td><br>
+<select name="country" style="width:155px">
+<option>India</option>
+<option>Pakistan</option>
+<option>Afghanistan</option>
+<option>Berma</option>
+<option>Other</option>
+</select>
+
+</td></tr>
+<tr><td colspan="2"><br><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" value="Add User"/></td></tr>
+</table>
+
+</form>
+</body>
+</center>
